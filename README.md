@@ -262,7 +262,7 @@ deactivate
 > The generated file `iris_mlflow_kserve_pipeline.yaml` is now ready for upload to Kubeflow.
  
 3. **Upload and Schedule Pipeline in Kubeflow** : 
-  - Visit the `ml-pipeline-ui` address from `Kubeflow` setup and 
+  - Visit the `ml-pipeline-ui` address from `Kubeflow` setup and Click on **Upload Pipeline**.
   - Give pipeline a name (e.g., `IrisExp`), just make sure its small as I faced an issue for large name where `Kubeflow` was not able to read pod information due to large pod names.
   - Upload the generated `iris_mlflow_kserve_pipeline.yaml` file.
  
