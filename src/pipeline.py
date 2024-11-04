@@ -333,7 +333,7 @@ def send_slack_message(model_info: dict):
         headers = {
             "Content-Type": "application/json",
         }
-        webhook_url = "https://hooks.slack.com/services/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"
+        webhook_url = "<SLACK_WEBHOOK_URL>"
         response = requests.post(
             webhook_url, data=json.dumps(slack_data), headers=headers
         )
