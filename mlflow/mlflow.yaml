@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: mlflow
-          image: syedshameersarwar/mlflow-mysql:latest
+          image: syedshameersarwar/mlflow-mysql:v2.0.1
           command: 
             - "/bin/sh"
             - "-c"
