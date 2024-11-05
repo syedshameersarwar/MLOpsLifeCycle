@@ -140,6 +140,7 @@ docker login
 # create docker repository on docker hub for storing the image
 docker tag mlflow-mysql:latest <dockerhub-username>/<docker-repository>:latest
 docker push <dockerhub-username>/<docker-repository>:latest
+# Make sure to update mlfow.yaml to reference the pushed image
 ```
  
 2. **Deploy MLflow Components** :
@@ -249,7 +250,7 @@ pip install kfp[kubernetes]
  
   - Create a `pipeline.py` file in this directory and include the contents from `src/pipeline.py`.
  
-  - Update the Slack `webhook_url` on line `#335` in `pipeline.py`.
+  - Update the Slack `webhook_url` on line `#336` in `pipeline.py`.
  
 2. **Generate Pipeline YAML** :
 
