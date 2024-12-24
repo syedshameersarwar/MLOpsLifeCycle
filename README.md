@@ -50,8 +50,6 @@ The architecture is designed to orchestrate the MLOps lifecycle across multiple 
 
 ## Implementation Details
 
-Although the assignment required implementing a single component, I explored the entire lifecycle components to meet most of the requirements. However, there are some limitations due to time and resource constraints:
-
 - **CI/CD**: GitHub is shown in the architecture as the source and CI/CD provider, but it is not fully implemented here as my local resources could not connect with GitHub Actions (self-hosted runner setup was not used).
   
 ---
